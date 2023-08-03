@@ -21,7 +21,8 @@
 
 5. 安装完成，尽情享用
 
-![插件中的目录最后一级为boghma hub](https://flowus.cn/preview/e0980418-a80f-4eb5-83ae-1b9b0d67ce36)
+![安装](https://github.com/DunHouGo/Boghma-Plugin-HUB/blob/main/picture/install.png)
+
 插件中的目录最后一级为boghma hub
 
 不要更改文件夹结构和名称，会导致插件报错
@@ -30,7 +31,8 @@
 
 ---
 
-![最后三个代表着三种状态：下载、升级和卸载](https://flowus.cn/preview/c4cfffe4-04c7-41fd-afc3-cd1b355dbea9)
+![最后三个代表着三种状态：下载、升级和卸载](https://github.com/DunHouGo/Boghma-Plugin-HUB/blob/main/picture/gui.png)
+
 最后三个代表着三种状态：下载、升级和卸载
 
 6. 按照提示点击安装、升级、卸载即可
