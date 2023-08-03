@@ -1,0 +1,11 @@
+STRINGTABLE pypreference
+{
+	pypreference 							"Boghma";
+
+	BOGHMA_PYPREFERENCE_MAIN_GROUP  		"\u83dc\u5355";
+	BOGHMA_PYPREFERENCE_SHOW_IN_TOPMENU		"\u5728\u9876\u90e8\u83dc\u5355\u4e2d\u663e\u793a";
+
+	BOGHMA_PYPREFERENCE_ASSET_FOLDER		"\u8d44\u4ea7\u6587\u4ef6\u5939";
+
+
+}

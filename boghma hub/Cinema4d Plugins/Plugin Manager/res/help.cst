@@ -1,0 +1,10 @@
+#Submenu
+900000 
+ID_WEB /// Boghma官网  /// Boghma
+ID_WEB_COM /// Boghma社区论坛  /// Community
+ID_WEB_DOC /// 使用文档  /// Doc
+ID_WEB_LOG /// 更新日志 /// Log
+ID_WEB_PLUGIN_TUT /// 插件教程 /// Plugin Tutorial
+ID_WEB_PLUGIN_FAQ /// FAQ /// FAQ
+ID_WEB_PLUGIN_TECT /// 技术支持 /// Suport
+ID_WEB_PLUGIN_ABOUT /// 关于 /// About

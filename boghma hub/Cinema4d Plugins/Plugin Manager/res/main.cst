@@ -1,0 +1,29 @@
+#Submenu
+100
+ID_Submenu_Start /// 测试 /// Test
+ID_ST_File /// 文件 /// File
+ID_SM_Plugin_Path /// 打开插件文件夹 /// Open Plugin Folder
+
+ID_ST_Help /// 帮助 /// Help
+ID_SM_Boghma /// Boghma官网 /// Boghma Website
+ID_SM_Community /// Boghma社区论坛 /// Boghma Community
+ID_SM_About /// 关于 /// About
+ID_SM_Change_Language /// Switch to English /// 切换为中文
+
+
+#Group
+1000
+ID_Group_None
+ID_Group_Plugins
+ID_Group_Scroll
+
+#other
+2000
+ID_Item_None
+ID_Info
+ID_Test
+ID_IB
+
+#
+3000
+ID_plugin_Start

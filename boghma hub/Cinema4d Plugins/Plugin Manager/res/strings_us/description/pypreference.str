@@ -1,0 +1,11 @@
+STRINGTABLE pypreference
+{
+	pypreference 							"Boghma";
+
+	BOGHMA_PYPREFERENCE_MAIN_GROUP  		"Top Menu";
+	BOGHMA_PYPREFERENCE_SHOW_IN_TOPMENU		"Show in Top Menu";
+
+	BOGHMA_PYPREFERENCE_ASSET_FOLDER		"Asset Folder";
+
+
+}

@@ -1,0 +1,1577 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, JACKADUX
+# This file is distributed under the same license as the ualib package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ualib \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-01 01:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../source/ualib.rst:2
+msgid "ualib package"
+msgstr ""
+
+#: ../source/ualib.rst:5
+msgid "Submodules"
+msgstr ""
+
+#: ../source/ualib.rst:8
+msgid "ualib.core module"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core:1
+msgid "TODO: UserArea Drag"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core:4
+msgid "**Node 对象继承关系:**"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core:5
+msgid "Node (BaseHierarchy)"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core:6
+msgid "| Node2D (BaseFrame)"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core:7
+msgid "| AreaNode"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core:8
+msgid "| BaseGraphicsItem"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core:9
+msgid "| BoxContainer"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core:10
+msgid "| HBoxContainer"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core:11
+msgid "| VBoxContainer"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core:12
+msgid "| SimpelTextItem"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core:13
+msgid "| ClipMapTextItem"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core:14
+msgid "| RectItem"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core:15
+msgid "| BitmapItem"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core:16
+msgid "| BaseBezierItem"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core:17
+msgid "| RoundRectItem"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AdvanceUserArea:1
+#: ../../core.py:docstring of ualib.core.AreaNode:1
+msgid "Bases: :py:class:`~ualib.core.Node2D`"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AdvanceUserArea._draw:1
+#: ../../core.py:docstring of ualib.core.BaseBezierItem._draw:1
+#: ../../core.py:docstring of ualib.core.BitmapItem._draw:1
+#: ../../core.py:docstring of ualib.core.ClipMapTextItem._draw:1
+#: ../../core.py:docstring of ualib.core.Node._draw:1
+#: ../../core.py:docstring of ualib.core.RectItem._draw:1
+#: ../../core.py:docstring of ualib.core.SimpelTextItem._draw:1
+msgid "绘制覆写方法，在这里一般只需绘制当前对象本身"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AdvanceUserArea._draw:0
+#: ../../core.py:docstring of ualib.core.AdvanceUserArea.set_redraw:0
+#: ../../core.py:docstring of ualib.core.AreaNode:0
+#: ../../core.py:docstring of ualib.core.AreaNode.extend_shapes:0
+#: ../../core.py:docstring of ualib.core.BaseBezierItem._draw:0
+#: ../../core.py:docstring of ualib.core.BaseBezierItem.update_list:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.set_handled:0
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem:0
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem._mouse_drag_process_event:0
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem._mouse_drag_start_event:0
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem._mouse_press_event:0
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem.set_drag_mouse_follow:0
+#: ../../core.py:docstring of ualib.core.BitmapItem._draw:0
+#: ../../core.py:docstring of ualib.core.ClipMapTextItem._draw:0
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.DrawMsg:0
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.InputEvent:0
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Message:0
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Sized:0
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Timer:0
+#: ../../core.py:docstring of ualib.core.Node:0
+#: ../../core.py:docstring of ualib.core.Node._draw:0
+#: ../../core.py:docstring of ualib.core.Node._draw_child:0
+#: ../../core.py:docstring of ualib.core.Node._draw_event:0
+#: ../../core.py:docstring of ualib.core.Node._event:0
+#: ../../core.py:docstring of ualib.core.Node2D:0
+#: ../../core.py:docstring of ualib.core.Node2D._doubleclick_event:0
+#: ../../core.py:docstring of ualib.core.Node2D._key_press_event:0
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_drag_process_event:0
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_drag_release_event:0
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_drag_start_event:0
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_move_event:0
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_press_event:0
+#: ../../core.py:docstring of ualib.core.Node2D._wheel_event:0
+#: ../../core.py:docstring of ualib.core.Node2D.start_drag_event:0
+#: ../../core.py:docstring of ualib.core.RectItem._draw:0
+#: ../../core.py:docstring of ualib.core.SimpelTextItem._draw:0
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.clear_flag:0
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.get_flag_by_position:0
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.has_flag:0
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.set_flag:0
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.toggle_flag:0
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.attach_bezier:0
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.change:0
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_all_points:0
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_part:0
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_points:0
+#: ../../utils.py:docstring of ualib.utils.get_bitmap_from:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AdvanceUserArea._draw:5
+#: ../../core.py:docstring of ualib.core.BaseBezierItem._draw:5
+#: ../../core.py:docstring of ualib.core.BitmapItem._draw:5
+#: ../../core.py:docstring of ualib.core.ClipMapTextItem._draw:5
+#: ../../core.py:docstring of ualib.core.Node._draw:5
+#: ../../core.py:docstring of ualib.core.Node._draw_child:11
+#: ../../core.py:docstring of ualib.core.Node._draw_event:17
+#: ../../core.py:docstring of ualib.core.RectItem._draw:5
+#: ../../core.py:docstring of ualib.core.SimpelTextItem._draw:5
+msgid "core 模块中的 CoreGeUserArea 对象"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AdvanceUserArea.set_redraw:1
+msgid "想要手动重绘制ua时调用该方法"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AdvanceUserArea.set_redraw:4
+msgid "注意：刷新方法尽量使用该函数，如果是高级开发者，想要直接使用 AUA.ua.Redraw() 或者 AUA.ua.LayoutChanged() 方法的， 请勿在 DrawMsg 函数调用过程中使用，否则会导致C4D陷入死循环而崩溃。比如 Node._update方法默认在 DrawMsg 过程调用。"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AdvanceUserArea.set_redraw:7
+msgid "界面尺寸发生改变时设置为True, defaults to False"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AreaNode:1
+msgid "基础区域对象, 事件只有在区域内部发生才会向下传递, 绘制也可以限制在区域内部"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AreaNode:3
+msgid "鼠标进入区域时发送信号"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AreaNode:5
+msgid "鼠标退出区域时发送信号"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AreaNode:8
+msgid "<prop> True 裁剪对象绘制范围到自己的 baseframe 范围内, False 关闭裁剪. 细节可以查看 draw_event"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AreaNode:10
+msgid "<prop> True 裁剪子对象绘制范围到当前对象的 baseframe 范围内, False 关闭裁剪. 细节可以查看 draw_event"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AreaNode:12
+msgid "<prop> 用于高效渲染, 建议设为True, 会将 baseframe 超出视图区域的对象跳过绘制(draw). 细节可以查看 draw_event"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AreaNode:15
+msgid "其他参数：mouse_inside 鼠标在区域内部时为True"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AreaNode._event:3
+msgid "只有当鼠标在区域内部时向下传递事件"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AreaNode._mouse_enter_event:3
+msgid "鼠标进入事件在这里执行"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AreaNode._mouse_leave_event:3
+msgid "鼠标离开事件在这里执行"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AreaNode.extend_shapes:1
+msgid "扩展当前对象内部判定区域， 在 _check_inside 函数中使用"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.AreaNode.extend_shapes:3
+msgid "BaseFrame对象组成的列表. Defaults to []."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseBezierItem:1
+#: ../../core.py:docstring of ualib.core.BitmapItem:1
+#: ../../core.py:docstring of ualib.core.BoxContainer:1
+#: ../../core.py:docstring of ualib.core.ClipMapTextItem:1
+#: ../../core.py:docstring of ualib.core.RectItem:1
+#: ../../core.py:docstring of ualib.core.SimpelTextItem:1
+msgid "Bases: :py:class:`~ualib.core.BaseGraphicsItem`"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseBezierItem._update:1
+#: ../../core.py:docstring of ualib.core.BitmapItem._update:1
+#: ../../core.py:docstring of ualib.core.BoxContainer._update:1
+#: ../../core.py:docstring of ualib.core.ClipMapTextItem._update:1
+#: ../../core.py:docstring of ualib.core.Node._update:1
+#: ../../core.py:docstring of ualib.core.RoundRectItem._update:1
+msgid "刷新绘制数据"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseBezierItem._update:6
+#: ../../core.py:docstring of ualib.core.BitmapItem._update:6
+#: ../../core.py:docstring of ualib.core.BoxContainer._update:6
+#: ../../core.py:docstring of ualib.core.ClipMapTextItem._update:6
+#: ../../core.py:docstring of ualib.core.Node._update:6
+#: ../../core.py:docstring of ualib.core.RoundRectItem._update:6
+msgid "_update 方法会在 _draw_event 中自动调用，当执行具体的数据刷新时可以利用 dirty flag 来判断刷新时机避免无效的反复刷新（可以极大的提升效率）"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseBezierItem._update:17
+#: ../../core.py:docstring of ualib.core.BitmapItem._update:17
+#: ../../core.py:docstring of ualib.core.BoxContainer._update:17
+#: ../../core.py:docstring of ualib.core.ClipMapTextItem._update:17
+#: ../../core.py:docstring of ualib.core.Node._update:17
+#: ../../core.py:docstring of ualib.core.RoundRectItem._update:17
+msgid "_update() 本质上是在DrawMsg() 函数中调用的, 所以注意避免直接调用 CoreGeUserArea 的 LayoutChanged() 方法 , 否则可能会因陷入死循环而导致的C4D崩溃"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseBezierItem.update_list:1
+msgid "将分散的bezier_objects合并为一个对象 并获取全局点位"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseBezierItem.update_list:3
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_all_points:7
+msgid "完全刷新所有对象的点位 (若已经刷新过,设置为False可以提升效率)"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:1
+#: ../../utils.py:docstring of ualib.utils.BaseHierarchy:1
+#: ../../utils.py:docstring of ualib.utils.Signal:1
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag:1
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject:1
+msgid "Bases: :py:class:`object`"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:1
+msgid "基础事件对象，会在每一个事件循环周期由 GeUserArea.InputEvent() 和 GeUserArea.Timer() 创建，并通过 GeUserArea.root._event() 方法传递到节点子级"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:0
+msgid "一个事件循环周期是指："
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:0
+msgid "输入事件发生 -> 事件传遍整个节点树 -> 数据刷新 -> 节点绘制"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:8
+msgid "BaseEvent对象主要有以下几种事件："
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:13
+msgid "is_down_event() -> EVENT_TYPE_DOWN 按下事件 由InputEvent发起"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:14
+msgid "is_hold_event() -> EVENT_TYPE_HOLD 拖拽事件 由is_down_event发起"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:15
+msgid "is_up_event() -> EVENT_TYPE_UP   松开事件 由is_down_event发起"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:16
+msgid "is_timer_event() -> EVENT_TYPE_TIMER 计时器事件 由Timer发起"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:19
+msgid "可获取的事件数据包括 ："
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:24
+msgid "**mouse_event_position** :列表[x,y] 对应事件按键点击时鼠标的位置"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:25
+msgid "**mouse_down_position** : 列表[x,y] 按键点击时鼠标的位置"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:26
+msgid "**mouse_hold_position** : 列表[x,y] 按键点击并拖动时鼠标的位置"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:27
+msgid "**mouse_up_position** : 列表[x,y] 按键松开时鼠标的位置"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:28
+msgid "**qualifier** : 辅助键位事件 如: ctrl/shift等, 对应 self.QUALIFIERS_CTRL/self.QUALIFIERS_SHIFT ..."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:29
+msgid "**device** :  输入设备: 鼠标 self.DEVICE_MOUSE, 键盘 self.DEVICE_KEYBOARD"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:30
+msgid "**channel** : 输入按键: 鼠标左键中间右键 self.CHANNEL_MOUSELEFT/ self.CHANNEL_MOUSERIGHT/ self.CHANNEL_MOUSEMIDDLE 等等"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:31
+msgid "**value** : 输入按键对应数据, 比如滚轮事件的数据"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:32
+msgid "**doubleclick** : 是否是双击"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:0
+msgid "基础的事件数据（_event_data）可以通过 __getitem__ 方法获取"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:43
+msgid "在一个事件周期内希望重新绘制时，需要调用 **event.set_redraw()** 方法"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:44
+msgid "该方法不会立即绘制而是等待所有输入事件结束后调用 root._draw_event()"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent:45
+msgid "需要取消事件时，调用 event.set_cancel() 方法, 这样c4d 其他界面控件就可以捕获到这个事件并作出反馈。"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.get_mouse_pos:1
+msgid "获取当前事件中的鼠标位置，down hold up timer都可以返回"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.get_mouse_pos:4
+msgid "除了通过这个方法，也可以通过 event[key]的方式(如event[\"mouse_down_position\"])在不同事件中获取其他事件的鼠标位置。"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.get_mouse_pos:9
+msgid "mouse_event_position :列表[x,y] 对应事件按键点击时鼠标的位置。"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.get_mouse_pos:10
+msgid "mouse_down_position : 列表[x,y] 按键点击时鼠标的位置。"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.get_mouse_pos:11
+msgid "mouse_hold_position : 列表[x,y] 按键点击并拖动时鼠标的位置。"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.get_mouse_pos:12
+msgid "mouse_up_position : 列表[x,y] 按键松开时鼠标的位置。"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.get_mouse_pos:22
+msgid ":doc:`__getitem__` 中有所有可获取的 **event** 数据"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.get_mouse_pos:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.get_wheel_value:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_alt_pressed:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_cancel:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_ctrl_pressed:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_double_click:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_down_event:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_handled:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_hold_event:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_key_pressed:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_left_pressed:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_middle_pressed:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_pressed:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_right_pressed:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_wheel_scrolled:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_redraw:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_shift_pressed:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_timer_event:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_up_event:0
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.GetMinSize:0
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Init:0
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.InitValues:0
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.InputEvent:0
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Message:0
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.get_flag_by_position:0
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.get_flag_names:0
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.get_flag_positions:0
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.has_flag:0
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_all_points:0
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_part:0
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_points:0
+#: ../../utils.py:docstring of ualib.utils.get_bitmap_from:0
+msgid "Return type"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.get_mouse_pos:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_alt_pressed:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_cancel:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_ctrl_pressed:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_double_click:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_down_event:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_handled:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_hold_event:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_key_pressed:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_left_pressed:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_middle_pressed:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_pressed:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_right_pressed:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_wheel_scrolled:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_redraw:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_shift_pressed:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_timer_event:0
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_up_event:0
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.GetMinSize:0
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Init:0
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.InitValues:0
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.InputEvent:0
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Message:0
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.get_flag_by_position:0
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.get_flag_names:0
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.get_flag_positions:0
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.has_flag:0
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_all_points:0
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_part:0
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_points:0
+msgid "Returns"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.get_mouse_pos:25
+msgid "[x,y] 鼠标相对画布的位置"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.get_wheel_value:1
+msgid "获取滚轮每次滚动的数值"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_alt_pressed:1
+msgid "alt点击"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_alt_pressed:4
+msgid "alt点击时返回True"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_cancel:1
+msgid "事件是否取消"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_cancel:4
+msgid "返回True 如果事件已取消"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_ctrl_pressed:1
+msgid "ctrl点击"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_ctrl_pressed:4
+msgid "ctrl点击时返回True"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_double_click:1
+msgid "是否是双击"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_double_click:4
+msgid "双击时返回True"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_down_event:1
+msgid "按下事件"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_down_event:4
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_up_event:4
+msgid "除了鼠标悬停外的所有事件都会返回True"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_handled:1
+msgid "事件是否已处理"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_handled:4
+msgid "返回True 如果事件已处理"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_hold_event:1
+msgid "拖拽事件"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_hold_event:4
+msgid "当发生拖拽时，除了鼠标悬停外的所有事件都会返回True"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_key_pressed:1
+msgid "是否是键盘输入事件"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_key_pressed:4
+msgid "当键盘输入时返回True"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_left_pressed:1
+msgid "鼠标左键点击"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_left_pressed:4
+msgid "左键点击时为True"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_middle_pressed:1
+msgid "滚轮点击（又称为中键）"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_middle_pressed:4
+msgid "中键点击时返回True"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_pressed:1
+msgid "输入事件为鼠标事件"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_pressed:4
+msgid "鼠标事件返回True"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_right_pressed:1
+msgid "鼠标右键点击"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_right_pressed:4
+msgid "右键点击时返回True"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_wheel_scrolled:1
+msgid "滚轮滚动"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_mouse_wheel_scrolled:4
+msgid "滚轮滚动时返回True"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_redraw:1
+msgid "绘制是否被调用"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_redraw:4
+msgid "返回True 如果需要绘制"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_shift_pressed:1
+msgid "shift点击"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_shift_pressed:4
+msgid "shift点击时返回True"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_special_key_pressed:1
+msgid "KEY_MLEFT KEY_MRIGHT KEY_MMIDDLE KEY_MX1 KEY_MX2 KEY_SHIFT KEY_CONTROL KEY_ALT KEY_CAPSLOCK KEY_MODIFIERS KEY_COMMAND KEY_BACKSPACE KEY_TAB KEY_ENTER KEY_ESC KEY_SPACE KEY_DELETE KEY_UP KEY_DOWN KEY_LEFT KEY_RIGHT KEY_PGUP KEY_PGDOWN KEY_HOME KEY_END KEY_INSERT KEY_F1 KEY_F2 KEY_F3 KEY_F4 KEY_F5 KEY_F6 KEY_F7 KEY_F8 KEY_F9 KEY_F10 KEY_F11 KEY_F12 KEY_F13 KEY_F14 KEY_F15 KEY_F16 KEY_F17 KEY_F18 KEY_F19 KEY_F20 KEY_F21 KEY_F22 KEY_F23 KEY_F24 KEY_F25 KEY_F26 KEY_F27 KEY_F28 KEY_F29 KEY_F30 KEY_F31 KEY_F32"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_timer_event:1
+msgid "计时器事件"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_timer_event:4
+msgid "主要是鼠标悬停事件时返回True"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.is_up_event:1
+msgid "松开事件"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.set_cancel:1
+msgid "设置事件为取消，事件会继续向下传递但不会有任何效果 此方法可以用于取消特定事件占用 c4d 界面其他控件的事件输入，"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.set_cancel:6
+msgid "设置时, 在 GeUserArea.InputEvent() 中返回 False 比如：滚轮事件如果不使用 set_cancel() 来取消， 则用户就无法通过滚轮来让 ScrollGroup 滚动"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.set_handled:1
+msgid "设置事件为已处理，这里的处理只是个布尔值，实际上并不会发生任何事情 需要用户自己通过 is_handled() 来判定事件是否在传入前已经被其他对象处理过"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.set_handled:5
+msgid "已处理的事件在AreaNode中将不再向下传递"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.set_handled:7
+msgid "如果你想要覆写 _event 方法，可以如下使用："
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.set_handled:17
+msgid "可以向上层对象返回处理事件的对象, 默认为 None"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseEvent.set_redraw:1
+msgid "延迟调用绘制，在一个事件循环周期结束后调用 GeUserArea.Redraw() 方法"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem:1
+msgid "Bases: :py:class:`~ualib.core.AreaNode`"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem:1
+msgid "基础图形对象, 事件只有在区域内部发生才会向下传递, 绘制也可以限制在区域内部"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem:3
+msgid "<prop> True 前对象可以被拖拽"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem:5
+msgid "<prop> 当前对象被聚焦时返回 True"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem:7
+msgid "<prop> True 对象可被选择"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem:9
+msgid "<prop> 当前对象被选择时返回 True"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem:11
+msgid "<prop> 绘制时使用的默认颜色"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem:13
+msgid "<prop> 绘制时使用的默认透明度 (0-1)"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem._mouse_drag_process_event:1
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem._mouse_drag_start_event:1
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem._mouse_press_event:1
+#: ../../core.py:docstring of ualib.core.Node2D._doubleclick_event:1
+#: ../../core.py:docstring of ualib.core.Node2D._key_press_event:1
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_drag_process_event:1
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_drag_release_event:1
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_drag_start_event:1
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_move_event:1
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_press_event:1
+#: ../../core.py:docstring of ualib.core.Node2D._wheel_event:1
+msgid "覆写方法"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem._mouse_drag_process_event:5
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem._mouse_drag_start_event:5
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_drag_process_event:5
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_drag_release_event:5
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_drag_start_event:5
+msgid "鼠标拖拽事件，通过 start_drag_event() 激活。"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem._mouse_drag_process_event:7
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem._mouse_drag_start_event:10
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem._mouse_press_event:10
+#: ../../core.py:docstring of ualib.core.Node2D._doubleclick_event:8
+#: ../../core.py:docstring of ualib.core.Node2D._key_press_event:8
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_drag_process_event:7
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_drag_release_event:10
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_drag_start_event:10
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_move_event:8
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_press_event:10
+#: ../../core.py:docstring of ualib.core.Node2D._wheel_event:11
+#: ../../core.py:docstring of ualib.core.Node2D.start_drag_event:25
+msgid "基础事件"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem._mouse_drag_start_event:8
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_drag_start_event:8
+msgid "只会在拖拽开始时调用一次。"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem._mouse_press_event:5
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_press_event:5
+msgid "鼠标点击事件 可以通过 event.get_mouse_pos() 方法获取当前事件中的鼠标位置 可以通过 event.is_mouse_left_pressed() 方法获取是否是左击 可以通过 event.is_mouse_right_pressed() 方法获取是否是右击"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem.set_drag_mouse_follow:1
+msgid "拖拽时的对象跟随鼠标延迟，通常保持默认即可。"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.BaseGraphicsItem.set_drag_mouse_follow:3
+msgid "0 到 1 之间。设置为 1 时完全没有延迟。, defaults to 0.35"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.ClipMapTextItem:1
+msgid "支持缩放的Text对象"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea:1
+msgid "Bases: :py:class:`~c4d.gui.GeUserArea`"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.DrawMsg:1
+msgid "Called when Cinema 4D wants you to draw your userarea."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.DrawMsg:2
+msgid "Use the drawing functions to update your user area in the region specified by the rectangle from (x1,y1) to (x2,y2)."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.DrawMsg:5
+msgid "The upper left x coordinate."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.DrawMsg:7
+msgid "The upper left y coordinate."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.DrawMsg:9
+msgid "The lower right x coordinate."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.DrawMsg:11
+msgid "The lower right y coordinate."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.DrawMsg:13
+msgid "A mesage container."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.GetMinSize:1
+msgid "Override this function to specify a minimum size for the user area."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.GetMinSize:10
+msgid "A tuple with two elements just like this."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Init:1
+msgid "Called once when the user area is initialized by the GUI, before the layout is calculated."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Init:2
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.InitValues:2
+msgid "Override this function if you need to initialize anything."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Init:6
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.InitValues:6
+msgid "Return **True** if successful, or **False** to signalize an error."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Init:9
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.InitValues:9
+msgid "**True** if successful, or **False** to signalize an error."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.InitValues:1
+msgid "Called after the layout is calculated, before the user area is drawn."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.InputEvent:1
+msgid "Called when an input event is received."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.InputEvent:2
+msgid "The information about the input event is stored in the *msg* container."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.InputEvent:6
+msgid ":doc:`Input Events </misc/inputevents>`."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.InputEvent:9
+msgid "The event container."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.InputEvent:11
+msgid "**True** if the event was handled, otherwise **False**."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Message:1
+msgid "Override this function to react to more messages than covered by the other functions. Normally this is not necessary."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Message:5
+msgid "If overridden, include a call to the base version of this function, :meth:`GeUserArea.Message`:"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Message:18
+msgid ":doc:`/consts/MSG_C4DATOM_PLUGINS` for information on the messages type, data and input/output."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Message:21
+msgid "The message container."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Message:23
+msgid "A container to store results in."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Message:25
+msgid "The return value depends on the message."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Sized:1
+msgid "Called when the user area is resized."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Sized:5
+msgid "Override if you need to update anything."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Sized:8
+msgid "The new width in pixels."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Sized:10
+msgid "The new height in pixels."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Timer:1
+msgid "If you subscribe to timer events using :meth:`SetTimer` (x), this function is called every *x* th millisecond."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Timer:2
+msgid "The raw timer message is stored in *msg*."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.Timer:5
+msgid "The timer message container."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:1
+msgid "这样用 set_mouse_cursor(\"MOUSE_HIDE\")"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:2
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:2
+msgid "MOUSE_HIDE  #Hide cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:3
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:3
+msgid "MOUSE_SHOW  #Show cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:4
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:4
+msgid "MOUSE_NORMAL  #Normal cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:5
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:5
+msgid "MOUSE_BUSY  #Busy cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:6
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:6
+msgid "MOUSE_CROSS  #Cross cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:7
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:7
+msgid "MOUSE_QUESTION  #Question cursor"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:8
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:8
+msgid "MOUSE_ZOOM_IN  #Zoom in cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:9
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:9
+msgid "MOUSE_ZOOM_OUT  #Zoom out cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:10
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:10
+msgid "MOUSE_FORBIDDEN  #Forbidden cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:11
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:11
+msgid "MOUSE_DELETE  #Delete cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:12
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:12
+msgid "MOUSE_COPY  #Copy cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:13
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:13
+msgid "MOUSE_INSERTCOPY  #Insert copy cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:14
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:14
+msgid "MOUSE_INSERTCOPYDOWN  #Insert copy down cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:15
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:15
+msgid "MOUSE_MOVE  #Move cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:16
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:16
+msgid "MOUSE_INSERTMOVE  #Insert move cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:17
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:17
+msgid "MOUSE_INSERTMOVEDOWN  #Insert move cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:18
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:18
+msgid "MOUSE_ARROW_H  #Horizontal cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:19
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:19
+msgid "MOUSE_ARROW_V  #Vertical cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:20
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:20
+msgid "MOUSE_ARROW_HV  #Horizontal and vertical arrow cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:21
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:21
+msgid "MOUSE_POINT_HAND  #Point hand cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:22
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:22
+msgid "MOUSE_MOVE_HAND  #Move hand cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:23
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:23
+msgid "MOUSE_IBEAM  #I-beam cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:24
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:24
+msgid "MOUSE_SELECT_LIVE  #Live selection cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:25
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:25
+msgid "MOUSE_SELECT_FREE  #Free selection cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:26
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:26
+msgid "MOUSE_SELECT_RECT  #Rectangle selection cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:27
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:27
+msgid "MOUSE_SELECT_POLY  #Polygon selection cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:28
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:28
+msgid "MOUSE_SPLINETOOLS  #Spline tools cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:29
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:29
+msgid "MOUSE_EXTRUDE  #Extrude cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:30
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:30
+msgid "MOUSE_NORMALMOVE  #Normal move cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:31
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:31
+msgid "MOUSE_ADDPOINTS  #Add points cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:32
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:32
+msgid "MOUSE_ADDPOLYGONS  #Add polygons cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:33
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:33
+msgid "MOUSE_BRIDGE  #Bridge cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:34
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:34
+msgid "MOUSE_MIRROR  #Mirror cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:35
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:35
+msgid "MOUSE_PAINTMOVE  #Paint move cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:36
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:36
+msgid "MOUSE_PAINTSELECTRECT  #Paint select rectangle cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:37
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:37
+msgid "MOUSE_PAINTSELECTCIRCLE  #Paint select circle cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:38
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:38
+msgid "MOUSE_PAINTSELECTPOLY  #Paint select polygon cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:39
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:39
+msgid "MOUSE_PAINTSELECTFREE  #Paint select free cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:40
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:40
+msgid "MOUSE_PAINTMAGICWAND  #Paint magic wand cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:41
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:41
+msgid "MOUSE_PAINTCOLORRANGE  #Paint color range cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:42
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:42
+msgid "MOUSE_PAINTFILL  #Paint fill cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:43
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:43
+msgid "MOUSE_PAINTPICK  #Paint pick cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:44
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:44
+msgid "MOUSE_PAINTBRUSH  #Paint brush cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:45
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:45
+msgid "MOUSE_PAINTCLONE  #Paint clone cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:46
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:46
+msgid "MOUSE_PAINTTEXT  #Paint text cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:47
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:47
+msgid "MOUSE_PAINTCROP  #Paint crop cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:48
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:48
+msgid "MOUSE_PAINTLINE  #Paint line cursor."
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.CoreGeUserArea.set_mouse_cursor:49
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:49
+msgid "MOUSE_PAINTPOLYSHAPE  #Paint polygon shape cursor"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.HBoxContainer:1
+#: ../../core.py:docstring of ualib.core.VBoxContainer:1
+msgid "Bases: :py:class:`~ualib.core.BoxContainer`"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node:1
+#: ../../utils.py:docstring of ualib.utils.BaseFrame:1
+msgid "Bases: :py:class:`~ualib.utils.BaseHierarchy`"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node:1
+msgid "最基础的抽象对象 继承自 BaseHierarchy类 所以可以实现不同Node对象间的父子级关系"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node:4
+msgid "用于管理Node对象所有的常规属性 (后续prop属性会用 <prop> 表示)"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node:6
+msgid "用于内部刷新使用的标志位对象"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node:8
+msgid "用户可以自由使用的标志位对象"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node._draw_child:1
+msgid "子对象绘制覆写方法，在这里一般绘制所有子对象，从后向前绘制，列表首位的子对象会显示在视图最上层"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node._draw_child:6
+msgid "insert_under方法会将子对象添加到 _children 列表的首位 insert_underlast 会添加到末尾 注意两种不同方式添加子对象绘制出来的前后顺序会不一样 其他添加方法查看 BaseHierarchy"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node._draw_event:1
+msgid "绘制事件"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node._draw_event:6
+msgid "如果覆写该方法需要注意：内部刷新事件需要在绘制前调用并尽量遵循以下原则："
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node._draw_event:11
+msgid "1.先调用 _update() 进行数据刷新"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node._draw_event:12
+msgid "2.调用 _draw() 绘制当前对象"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node._draw_event:13
+msgid "3.调用 _draw_child() 绘制子对象"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node._draw_event:14
+msgid "4.调用 dirty_flag.clear_all_flags() 清理本次事件循环产生的 dirty flag"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node._draw_event:15
+msgid "5.调用 user_flag.clear_all_flags() 清理本次事件循环产生的 user flag"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node._draw_event:19
+msgid "[x1,y1,x2,y2]"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node._event:1
+msgid "事件处理,会将事件自动向下传递"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node._event:5
+msgid "采用事件冒泡的规则，优先处理子对象的事件再处理父对象，当 event.is_handled() 为True 事件停止转递， 覆写方法时应该先调用 super()._event(event) 再根据 event.is_handled() 的状态执行相应代码。"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node._event:8
+msgid "基础事件对象"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D:1
+msgid "Bases: :py:class:`~ualib.core.Node`, :py:class:`~ualib.utils.BaseFrame`"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D:1
+msgid "最基础的2D对象, 所有对象应该基于这个类创建"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D:3
+msgid "除了继承 Node类, 最重要的是Node2D继承了 BaseFrame类， 可以设置位置大小等参数 也可以通过 get_global_position() 在嵌套的父子级关系中获取全局坐标，方便用来最终绘制"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D:6
+msgid "常用的输入事件覆写以下方法使用："
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D:11
+msgid "**_mouse_move_event** 鼠标悬停"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D:12
+msgid "**_doubleclick_event** 双击"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D:13
+msgid "**_mouse_press_event** 鼠标点击"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D:14
+msgid "**_key_press_event** 键盘点击"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D:15
+msgid "**_wheel_event** 鼠标滚轮"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D:16
+msgid "**_mouse_drag_start_event** 鼠标拖拽开始"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D:17
+msgid "**_mouse_drag_process_event** 鼠标拖拽"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D:18
+msgid "**_mouse_drag_release_event** 鼠标拖拽结束"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D:21
+msgid "当对象的位置发送改变时发射信号，并将所有下级的 DIRTYFLAGS_MATRIX 设置为 True"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D._debug_draw_frame:2
+msgid "此方法用于 debug, 用户只需将 AUA.ua.draw_debug_frames 设为True 则所有 Node2D 都会绘制用于debug的红色虚线外轮廓"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D._doubleclick_event:5
+msgid "鼠标双击事件 可以通过 event.is_mouse_left_pressed() 方法获取是否是左键双击"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D._key_press_event:5
+msgid "键盘点击事件 可以通过 event.get_key_value() 方法获取当前输入的字符"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_drag_release_event:8
+msgid "只会在拖拽结束时调用一次。"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D._mouse_move_event:5
+msgid "鼠标悬停移动事件 可以通过 event.get_mouse_pos() 方法获取当前事件中的鼠标位置"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D._on_global_frame_changed:3
+msgid "当对象的全局位置发生改变时自动调用该方法，将自己以及所有的子对象（包括曾子孙）的 dirty_flag 设立 DIRTYFLAGS_MATRIX 标志位 用于在后续的刷新中使用"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D._wheel_event:5
+msgid "鼠标滚轮事件 可以通过 event.get_wheel_value() 方法获取当前输入的滚动量"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D._wheel_event:9
+msgid "注意：此事件默认调用 event.set_cancel() （可以防止拦截 ScrollGroup 的滚轮事件）"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D.start_drag_event:1
+msgid "开始拖拽事件。在 _mouse_press_event 中调用该方法可以激活 _mouse_drag_start_event，_mouse_drag_process_event，_mouse_drag_release_event 事件"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D.start_drag_event:0
+msgid "Raises"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.Node2D.start_drag_event:27
+msgid "此事件必须要在 _mouse_press_event 函数中调用"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.RoundRectItem:1
+msgid "Bases: :py:class:`~ualib.core.BaseBezierItem`"
+msgstr ""
+
+#: ../../core.py:docstring of ualib.core.RoundRectItem.get_rect:1
+msgid "获取由bezier_object组成的倒角矩形"
+msgstr ""
+
+#: ../source/ualib.rst:16
+msgid "ualib.utils module"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseFrame:1
+msgid "基础区域对象,可以通过位置和尺寸来返回全局bbox属性 即: x1, y1, x2, y2"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseFrame:2
+msgid "可以通过set_alignment()方法或者offset, 设置中心点位置(默认在左上角)"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseFrame:3
+msgid "除此之外支持一些常用判定方法:"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseFrame:4
+msgid "1 (x,y)点是否在该区域"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseFrame:5
+msgid "2 是否与区域 [x1, y1, x2, y2] 相交"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseFrame:6
+msgid "3 获取与区域 [x1, y1, x2, y2] 相交的区域 [ox1, oy1, ox2, oy2]"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseFrame:7
+msgid "..."
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseFrame.get_box_offset:1
+msgid "获取相对的偏移位置， 可以用于获取中心点等特殊位置"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseHierarchy:1
+msgid "一个用于管理父子级关系的基类。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseHierarchy.get_children:1
+msgid "获取该节点的子节点列表。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseHierarchy.get_down:1
+msgid "获取第一个子节点。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseHierarchy.get_downlast:1
+msgid "获取最后一个子节点。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseHierarchy.get_next:1
+msgid "获取下一个兄弟节点。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseHierarchy.get_pred:1
+msgid "获取前一个兄弟节点。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseHierarchy.get_up:1
+msgid "获取父节点。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseHierarchy.insert_after:1
+msgid "在指定节点之后插入该节点。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseHierarchy.insert_before:1
+msgid "在指定节点之前插入该节点。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseHierarchy.insert_under:1
+msgid "将该节点添加为指定节点的第一个子节点。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseHierarchy.insert_underlast:1
+msgid "将该节点添加为指定节点的最后一个子节点。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseHierarchy.iter_all_children:1
+msgid "获取该节点的所有子孙节点的生成器。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseHierarchy.remove:1
+msgid "从父节点的子节点列表中移除该节点。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseHierarchy.remove_all_children:1
+msgid "移除该节点的所有子节点。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseHierarchy.set_children:1
+msgid "设置子节点列表。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.BaseHierarchy.set_parent:1
+msgid "设置父节点。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.Signal:1
+msgid "用于模仿pyqt中的Signal类。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.Signal.connect:1
+msgid "将槽函数连接到信号上。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.Signal.disconnect:1
+msgid "将槽函数从信号上断开连接。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.Signal.emit:1
+msgid "发送信号，调用所有连接的槽函数。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag:1
+msgid "标志位类，用于管理和操作多个二进制标志位。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag:5
+msgid "所有标志位的值。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag:0
+msgid "type"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag:7
+msgid "int"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag:11
+msgid "所有标志位的名称。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag:13
+msgid "List[str]"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.clear_all_flags:1
+msgid "清除所有标志位。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.clear_flag:1
+msgid "清除指定的标志位。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.clear_flag:3
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.has_flag:3
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.set_flag:3
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.toggle_flag:3
+msgid "标志位的名称或位置。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.get_flag_by_position:1
+msgid "通过位置获取标志位的名称。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.get_flag_by_position:3
+msgid "标志位的位置。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.get_flag_by_position:5
+msgid "标志位的名称。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.get_flag_names:1
+msgid "获取所有标志位的名称。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.get_flag_names:3
+msgid "所有标志位的名称列表。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.get_flag_positions:1
+msgid "获取所有标志位的位置。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.get_flag_positions:3
+msgid "所有标志位的位置列表。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.has_flag:1
+msgid "检查是否存在指定的标志位。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.has_flag:5
+msgid "True表示存在该标志位，False表示不存在。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.set_flag:1
+msgid "设置指定的标志位。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SimpleFlag.toggle_flag:1
+msgid "切换指定的标志位。"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject:1
+msgid "贝塞尔曲线对象"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.attach_bezier:1
+msgid "连接上下游 bezier_object"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.attach_bezier:3
+msgid "SingleBezierObject"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.attach_bezier:5
+msgid "\"start\" 或者 \"end\""
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.change:1
+msgid "修改BezierObject的参数"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.change:3
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_part:3
+msgid "\"start\", \"end\",\"start_hand_offset\",\"end_hand_offset\", 中的一个"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.change:5
+msgid "位置数据"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.change:7
+msgid "当 update 为 True时才会更新 start_list 和 points_list 属性, 若连续修改同一对象的不同part可以最后一次修改时设置True, 可以提升效率"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_all_points:1
+msgid "将独立的bezier_objects作为一个对象获取全局点位"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_all_points:3
+msgid "SingleBezierObject 对象组成的列表"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_all_points:5
+msgid "偏移量"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_all_points:10
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_points:6
+msgid "[start x, start y] points_list (list) : [other points]"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_part:1
+msgid "获取BezierObject的参数"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_part:6
+msgid "四个控制点中对应part的位置"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_points:1
+msgid "获取当前对象绘制贝塞尔曲线所需的所有点"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.get_points:3
+msgid "是否刷新,若无刷新必要设为False可以提升效率"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.SingleBezierObject.update_list:1
+msgid "更新当前对象绘制贝塞尔曲线所需的所有点"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.get_bitmap_from:1
+msgid "通过输入图片路径或者c4d icon id来返回对应的 bitmap对象"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.get_bitmap_from:3
+msgid "对应参数"
+msgstr ""
+
+#: ../../utils.py:docstring of ualib.utils.set_mouse_pointer:1
+msgid "这样用 set_mouse_pointer(\"MOUSE_HIDE\")"
+msgstr ""
+
+#: ../source/ualib.rst:24
+msgid "Module contents"
+msgstr ""
+
+#: ../../__init__.py:docstring of ualib:1
+msgid "author: jackadux version: 1.0.0"
+msgstr ""

@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "b73d212b968253ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d7399121792cdc1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "59abebb391a31f8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ualib/Start Here.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1d051c328dd914a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "d58e77657461f3e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc35c27b6d12411d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b95c1f153607eba7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#AdvanceUserArea",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c021c5b548084d88",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "80030f625ffebdf2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 242.5
+  },
+  "right": {
+    "id": "dfd059553de8fdd4",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd81359c43028f00",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a29d4a326eebaf67",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ualib/Start Here.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7b5603d6852a54d8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ualib/Start Here.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "da0d6146a4a8405c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a9f95c339c8bf4c4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ualib/Start Here.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "59abebb391a31f8c",
+  "lastOpenFiles": [
+    "ualib/Core.md",
+    "ualib/c4d GeUserArea.md",
+    "ualib/core.md",
+    "ualib/Signal 信号系统.md",
+    "ualib/Start Here.md",
+    "sphinx.md",
+    "boghma hub.md",
+    "res/Pasted image 20230321205404.png",
+    "res/Pasted image 20230321205628.png",
+    "res",
+    "res/Pasted image 20230320182948.png",
+    "ualib",
+    "未命名.canvas"
+  ]
+}
