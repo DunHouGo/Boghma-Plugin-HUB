@@ -26,7 +26,7 @@
 
 # 使用
 
-![最后三个代表着三种状态：下载、升级和卸载](https://github.com/DunHouGo/Boghma-Plugin-HUB/blob/main/picture/gui.png)
+![GUI](https://github.com/DunHouGo/Boghma-Plugin-HUB/blob/main/picture/gui.png)
 
 最后三个代表着三种状态：下载、升级和卸载
 
@@ -38,7 +38,6 @@
 
 # 注意
 
----
 
 - 不要更改boghma hub文件夹内的内容，除了您知道您在干什么
 
