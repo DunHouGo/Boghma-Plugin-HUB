@@ -3,13 +3,10 @@
 
 # Boghma插件管理器
 
----
-
 一键式管理boghma插件的安装、升级和卸载
 
 # 安装
 
----
 
 1. 下载boghma hub压缩包后解压
 
@@ -28,8 +25,6 @@
 不要更改文件夹结构和名称，会导致插件报错
 
 # 使用
-
----
 
 ![最后三个代表着三种状态：下载、升级和卸载](https://github.com/DunHouGo/Boghma-Plugin-HUB/blob/main/picture/gui.png)
 
