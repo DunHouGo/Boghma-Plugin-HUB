@@ -1,6 +1,10 @@
-# Boghma-Plugin-HUB
+# Boghma Plugin Manager
 
-> This plugins stop online, go to our website and get the new plugin manager for free.
+> This plugin is avaliable on www.boghma.com now!
 >
-> www.boghma.com
+> All the plugins are FREE
+>
+> Cheers~
+> 
+> DunHou
 
